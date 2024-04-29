@@ -1,9 +1,9 @@
 <?php
 
-$servername = 'testecaio1.c7rwh8xel0ji.us-east-1.rds.amazonaws.com';
-$username = 'Master';
-$password = '29041234';
-$dbname = 'testecaio1';
+$servername = 'endpoint';
+$username = 'user';
+$password = 'passwrd';
+$dbname = 'name';
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
